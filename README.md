@@ -28,5 +28,7 @@ Server Side -
 Client Side -
   python(3) ClientStartup.y [--debug 0|1] [--address IPV4] [--port PORT] [--username USERNAME] [--motto MOTTO]
   
+ Replace arguments with -h to view full list of arguments
+  
  Enabling Debug will Decrease Performance, This is used by developers
  ```
