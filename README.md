@@ -17,3 +17,16 @@ TCP Socket Based Centralized Customizable Chat Platform
 | 0xBA        186 | INVOKE_CLIENT_NOTIFICATION| MESSAGE                | False          |
 | 0xCD        205 | CLIENT_LIST_UPDATE        | [(CLIENT_ID, USERNAME)]| False          |
 ```
+
+# Run Commands
+```
+Server Side -
+  python(3) HostingStartup.py [--debug 0|1] [--address 0.0.0.0] [--port 1025-65535] [--method tcp] [--max-message-length 2048]
+   --method should always be tcp, a future implementation of others will be used
+   --max-message-length is how big the CLIENT_SEND_MSG content field can be
+   
+Client Side -
+  python(3) ClientStartup.y [--debug 0|1] [--address IPV4] [--port PORT] [--username USERNAME] [--motto MOTTO]
+  
+ Enabling Debug will Decrease Performance, This is used by developers
+ ```
