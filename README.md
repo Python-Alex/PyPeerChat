@@ -3,7 +3,7 @@ TCP Socket Based Centralized Customizable Chat Platform
 
 # All Event Flags
 ## All Constructed Payloads are Parsed Using Json
-## Ex: {'flag': 10, 'content': 'MESSAGE CONTENT; TO_USER_ID', 'from': 'FROM_SENDING_USER_ID'}
+### Ex: {'flag': 10, 'content': 'MESSAGE CONTENT; TO_USER_ID', 'from': 'FROM_SENDING_USER_ID'}
 ```
 | Flag  (hex|int) | Flag Name                 | Flag Content Structure | From Id Needed |
 | --------------- |:-------------------------:|:----------------------:|----------------|
